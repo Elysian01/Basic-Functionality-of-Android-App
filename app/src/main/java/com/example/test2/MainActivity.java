@@ -38,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
                 openToastActivity2();
             }
         });
-//
-//        btnAbstract.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                openAbstractActivity();
-//            }
-//        });
+
+        btnAbstract.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openAbstractActivity();
+            }
+        });
 
         btnWeb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,9 +69,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-//
-//    public void openAbstractActivity(){
-//        Intent intent = new Intent(this, AbstractActivity.class);
-//        startActivity(intent);
-//    }
+    public void openAbstractActivity(){
+        Intent intent = new Intent(this, AbstractActivity.class);
+        startActivity(intent);
+    }
 }

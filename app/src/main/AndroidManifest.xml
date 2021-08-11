@@ -10,18 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test2">
         <activity
+            android:name=".AbstractActivity"
+            android:exported="true" />
+        <activity
             android:name=".WebActivity"
             android:exported="true" />
         <activity
             android:name=".ToastActivity2"
             android:exported="true" />
-        <activity
-            android:name=".ToastActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.login.ToastActivity"
-            android:exported="true"
-            android:label="@string/title_activity_toast" />
+
         <activity
             android:name=".HelloWorldActivity"
             android:exported="true" />
